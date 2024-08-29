@@ -1,0 +1,18 @@
+create table if not exists customized_api_configurations(
+version_code Integer not null,
+version_id Integer null,
+table_view_name varchar(255) null,
+db_name varchar(255) null,
+json_name varchar(255) null,
+data_type varchar(255) null,
+mandatory char null,
+size varchar(255) null,
+default_value varchar(255) null,
+hidden_column varchar(255) null,
+serializer varchar(255) null,
+de_serializer varchar(255) null,
+synthetic_data varchar(255) null,
+raw_data varchar(255) null,
+entity_state varchar(255) null,
+remarks varchar(255) null,
+constraint customized_api_configurations_pk primary key(version_code));
